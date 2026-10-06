@@ -1,0 +1,46 @@
+{
+  "name": "was-gcp-mcp",
+  "version": "1.0.0",
+  "description": "Shareable Google Cloud Universal MCP server — call any Google Cloud Platform (GCP) REST API via a single universal tool.",
+  "type": "module",
+  "bin": {
+    "was-gcp-mcp": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "server.js",
+    "auth.js",
+    "config.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node cli.js",
+    "auth": "node cli.js auth"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-cloud",
+    "gcp",
+    "claude",
+    "cursor",
+    "antigravity"
+  ],
+  "author": "Web Analytics Solution",
+  "license": "MIT",
+  "homepage": "https://github.com/mnsmasum62786/was-gcp-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnsmasum62786/was-gcp-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mnsmasum62786/was-gcp-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
